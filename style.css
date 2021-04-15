@@ -1,95 +1,100 @@
 body {
-    background-color: #f8f4e1;
-    color: #000;
-    font-size: 16px;
-    font-family: Arial Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
+  background-color: #f8f4e1;
+  color: #000;
+  font-size: 16px;
+  font-family: Arial Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 .nav {
-    background-color: #897853;
-    color: #fff;
+  background-color: #897853;
+  color: #fff;
 }
 
 .nav ul {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    font-size: 0px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 0px;
 }
 
 .nav ul li {
-    padding: 16px;
-    text-align: center;
-    font-size: 1.2rem;
-    border-bottom: 1px solid #c8e3ee;
-    transition: background-color 0.2s
+  padding: 16px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #c8e3ee;
+  transition: background-color 0.2s;
 }
 
 .nav ul li:hover {
-    background-color: #000;
+  background-color: #000;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .image-area {
-    background-image: url("assets/background.jpg");
-    background-position: center center;
-    background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+  background-image: url("assets/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 centered-container {
-    max-width: 1020px;
-    margin: 0px auto;
-    padding: 0px 16px;
-    margin: 0px auto;
+  max-width: 1020px;
+  margin: 0px auto;
+  padding: 0px 16px;
+  margin: 0px auto;
 }
 
 .image-text {
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    font-size: 2.5rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 2.5rem;
 }
 
-.intro-text{
-    color: #4e3620;
-    font-size: 1.5rem;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.intro-text {
+  color: #4e3620;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .single-service {
-    text-align: center;
-    margin-bottom: 32px;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .single-service img {
-    height: 25rem;
-    width: 35rem;
+  height: 25rem;
+  width: 35rem;
 }
 
 .single-service p {
-    padding: 0px 16px;
-    font-size: 1.1rem;
+  padding: 0px 16px;
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 700px) {
-    .nav ul {
-        text-align: right;
-    }
+  .nav ul {
+    text-align: right;
+  }
 
-    .nav ul li {
-        display: inline-block;
-        border-bottom: 0px;
-        border-left: 1px solid #000;
-        text-align: left;
-    }
+  .nav ul li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid #000;
+    text-align: left;
+  }
 
-    .single-service {
-        width: 50%;
-        float: left;
-    }
+  .single-service {
+    width: 50%;
+    float: left;
+  }
 }
