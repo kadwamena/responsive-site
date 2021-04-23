@@ -38,7 +38,7 @@ body {
 
 .image-area {
   background-image: url("assets/background.jpg");
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -85,23 +85,22 @@ centered-container {
   /* border: 1px solid red; */
 }
 
-.form-div{
+/* .form-div{
   display: grid;
   grid-template-rows: 1fr;
   row-gap: 20px;
-  /* background-color: red; */
   width: 12rem;
   margin-left: 42rem;
   color: #4e3620;
-}
+} */
 
-/* .form-div {
+.form-div {
   margin-top: 40rem;
   width: 50%;
   margin: auto;
   text-align: center;
   color: #4e3620;
-} */
+}
 
 /* .left-input {
   position: relative;
@@ -152,4 +151,6 @@ button:hover {
     width: 50%;
     float: left;
   }
+
+  
 }
