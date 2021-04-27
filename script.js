@@ -30,7 +30,7 @@ btnSubmit.addEventListener("click", () => {
   } else if (!emailValue.match(email)) {
     alert("Please provide a valid email");
   } else {
-      alert(myFirstName + " " + myLastName + " " + phoneNum + " " + emailValue); 
+      alert("First Name: " + myFirstName + "\n" + "Last Name: " + myLastName + "\n" + "Phone Number: " + phoneNum + "\n" + "Email: " + emailValue); 
   }
 });
 
